@@ -66,7 +66,7 @@
 
  func parrotTrouble(isTalking: Bool, hour: Int) -> Bool {
  
- if isTalking && hour < 7 || isTalking && hour > 20 {
+ if (isTalking) && (hour < 7) || (isTalking) && (hour > 20) {
  
  return true
  
